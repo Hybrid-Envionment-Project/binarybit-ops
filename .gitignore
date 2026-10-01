@@ -1,0 +1,36 @@
+# Secrets and environment config
+.env
+.env.*
+config.local.php
+config.production.php
+*.key
+*.pem
+*.crt
+
+# Database dumps and backups
+*.sql
+*.sql.gz
+*.bak
+*.dump
+
+# Dependencies
+/vendor/
+node_modules/
+
+# Logs and errors
+*.log
+error_log
+php_errorlog
+
+# Uploads, caches and temporary files
+/uploads/
+/cache/
+/tmp/
+/sessions/
+
+# OS and editor files
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+*.swp
